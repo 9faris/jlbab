@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!--Code by Divinector (www.divinectorweb.com)-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Homepage design with Bootstrap and Animate css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+               <img src="img/logo.png">
+            </div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+               <li><a class="active" href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Gallery</a></li>
+               <li><a href="#">Feedback</a></li>
+            </ul>
+         </nav>
+         
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background: url(../img/header1.jpg); background-repeat: no-repeat; -webkit-background-size: cover;
+                    background-size: cover;
+                    background-position: center cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">We Are <span>Creative</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet.</h3>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="banner" style="background: url(../img/header2.jpg);  background-repeat: no-repeat; -webkit-background-size: cover;
+                    background-size: cover;
+                    background-position: center cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">We Are <span>Franco</span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">Lorem ipsum dolor sit amet.</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="banner" style="background-image: url(../img/header3.jpg);  background-repeat: no-repeat; -webkit-background-size: cover;
+                    background-size: cover;
+                    background-position: center cover;
+                    background-repeat: no-repeat;
+                    height: 100vh;""></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We Are <span>Diligent</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Lorem ipsum dolor sit amet.</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+	
+    <section class="discover-our-story">
+        <div class="container">
+            <div class="restaurant-info">
+                <div class="restaurant-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">D</span>iscover
+                        </h2>
+                        <h1 class="headline headline-dark">Our Story</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, voluptates.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, asperiores.
+                    </p>
+                    <a href="#" class="btn body-btn">About us</a>
+                </div>
+                <div class="restaurant-info-img animate-right">
+                    <img src="img/discover.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        
+    <div class="small-containers">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="Product page/index.html">
+                    <img src="img/header1.jpg">
+                </a>
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/header2.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/header3.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/jil1.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/jil2.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/jil3.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/jil4.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/product-8.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="img/product-9.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/product-10.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/product-11.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="img/product-12.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
